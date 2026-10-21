@@ -1,0 +1,35 @@
+# ---------- 签名与证书（绝对不允许提交）----------
+# 一旦提交，等于把自己的开发者证书和私钥公开
+*.p12
+*.cer
+*.p7b
+*.csr
+*.jks
+*.keystore
+signature/
+signingConfigs.json5
+local.properties
+
+# ---------- 鸿蒙 / DevEco Studio ----------
+oh_modules/
+.ohpm/
+.hvigor/
+.cxx/
+build/
+*.hap
+*.hsp
+*.har
+*.app
+*.iml
+.idea/
+previewer/
+
+# ---------- Node ----------
+node_modules/
+
+# ---------- 系统 ----------
+.DS_Store
+Thumbs.db
+
+# ---------- 其他 ----------
+*.log
