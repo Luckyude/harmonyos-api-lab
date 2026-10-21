@@ -11,8 +11,6 @@
 | `apps/` | 每个 API 实践一个独立工程，互不依赖 |
 | `docs/` | 对应项目的报错记录 |
 
-项目目录按实际用途命名，比如 `mf_api`、`mf_locate`，不用 demo、sample 这类名字。
-
 ## 怎么跑
 
 1. 用 DevEco Studio 打开 `apps/` 下的项目目录
@@ -30,6 +28,8 @@
 微信公众号「程序猿米饭」，合集《鸿蒙 API 避坑录》
 
 <img src="assets/gzh-qrcode.jpg" width="160" alt="程序猿米饭 公众号">
+
+码字和调试都不轻松，觉得有用的话，点个 Star 就是最好的鼓励。
 
 ## License
 
