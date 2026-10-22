@@ -1,0 +1,23 @@
+# 编译产物
+target/
+*.class
+*.jar
+*.war
+
+# 日志
+logs/
+*.log
+
+# IDE
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# 本地配置覆盖，可能含数据库密码
+src/main/resources/application-local.yml
+
+# 本地环境变量，含真实数据库密码，绝不提交
+.env
+.env.local
+*.local.sh
